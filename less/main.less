@@ -1,0 +1,348 @@
+ /* color */
+@btn-color: #7edfcf;
+@text: #ffffff;
+
+/* basic setting */
+html {
+	font-size: 10px;
+}
+/* Typography */
+section {
+padding: 6rem 0;
+}
+.novigation {
+	padding: 1.5rem 0;
+	background: #fff url(../img/video/mainfon.jpg) center center no-repeat;
+}
+.navbar {
+	position: fixed;
+	text-align: right;
+	font-family: roboto, sans-serif;
+	display: block;
+	font-size: 1.3rem;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+a {
+	padding-right: 1rem;
+	color: @text;
+	&:hover {
+	text-decoration: none;
+	color: #00E0D0;
+	}
+}
+.home	{
+	color: #00E0D0;
+	&:hover {
+		color: @text;
+	}
+}
+.novigation-content {
+	margin-top: 7.5rem;
+	text-align: center;
+}
+h1 {
+	margin-bottom: 4rem;
+	font-family: 'Playfair Display', serif;
+	font-weight: 900;
+	font-size: 3.2rem;
+	color: @text;
+}
+h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 2.2rem;
+}
+h3 {
+	text-align: center;
+	margin-top: 2rem;
+	font-family: roboto, sans-serif;
+	font-size: 1.6rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: @text;
+}
+p {
+	margin-bottom: 4rem;
+	font-family: roboto, sans-serif;
+	font-weight: 300;
+	font-size: 1.4rem;
+	line-height: 2rem;
+	color: @text;
+}
+.btn {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: #00E0D0;
+	border: 1px solid #00E0D0;
+	&:hover {
+		background-color: lighten(#00E0D0, 10%);
+		color: @text;
+	}
+}
+.story p {
+	margin: 2rem 0;
+	color: #716f79;
+}
+.video {
+	text-align: center;
+	width: 100%;
+	height: 550px;
+	background: #fff url(../img/video/videofon.jpg) center center no-repeat;
+}
+.btn-play {
+	text-align: center;
+	background: none;
+	border: none;
+	display: block;
+	margin: 12rem auto 0; 
+}
+.section-header {
+	text-align: center;
+}
+.features p {
+	text-align: center;
+	color: #716f79;
+	}
+/* оформление секции с преимуществами */
+.features {
+	&-block {
+		margin: 2rem 0;
+		h3 {
+		margin: 2rem 0;
+		color: black;
+		font-family: roboto, sans-serif;
+		font-size: 1.6rem;
+		font-weight: 900;
+		}
+		p {
+			text-align: center;
+			color: #716f79;
+		}
+	}
+}
+.features {
+	&-img {
+		height: 5rem;
+		img {
+		display: block;
+		margin: 0 auto;
+		}
+
+	}
+
+}
+/* оформление секции team */
+.team {
+	background: #fff url(..//img/team/teamfon.jpg) center center no-repeat;
+	text-align: center;
+	h2 {
+		color: @text;
+	}
+	img {
+	  display: block;
+	  height: auto;
+	  max-width: 100%;
+	}
+
+/* оформление works */
+.works	{
+	.section-header {
+		margin-bottom: 3rem;
+		p {
+			color: black;
+		}
+	}
+	&-button {
+		margin: 5rem auto 0;
+		text-align: center;
+	}
+}
+/* оформление feedback */
+.feedback {
+ 	text-align: center; 
+	background: #fff url(../img/feedback/fon.jpg) center center no-repeat;
+}
+.feedback-img img {
+	padding: 0 1.5rem;
+}
+.feedback-slider-for {
+	margin-top: 3rem;
+}
+/* оформление contact */
+.main-form h2 {
+	margin-bottom: 2rem;
+}
+.form-group {
+	
+}
+.form-control {
+	height: 4.5rem;
+}
+.brand {
+	text-align: center;
+	img {
+	  display: inline-block;
+	  height: auto;
+	  max-width: 100%;
+	}
+}
+.client img {
+	display: inline-block;
+	margin: 2rem 0;
+}
+/* оформление footer  */
+.footer {
+	background: #fff url(../img/footer/computer.jpg) center center no-repeat;
+	&-help {
+	margin-top: 6rem;
+	font-family: roboto, sans-serif;
+	font-size: 1.3rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	}
+	p {
+		margin-top: 3rem;
+	}
+	h3 {
+		text-align: left;
+	}
+	&-studio p {
+		margin: 3rem 0;
+	}
+	&-form input {
+		text-align: center;
+		width: 20rem;
+		height: 4.5rem;
+		margin: 3rem 1rem 3rem 0;
+		background-color: rgba(255, 255, 255, 0.2);
+		border: 1px solid #707070;
+	}
+	.btn-paper {
+		width: 7rem;
+		height: 4.5rem;
+		border: none;
+		background-color: rgba(255, 255, 255, 0.8);
+	}
+	.footer-form p {
+		text-align: right;
+	}
+}
+.btn-logo {
+	padding: 2px;
+	text-align: left;
+	border: none;
+	background: none;
+}
+
+@media (max-width: 1200px) {
+.feedback-img img {
+	padding: 0 0.6rem;
+	}
+}
+ @media (max-width: 992px) {
+	.novigation-content {
+		margin-top: 3rem;
+		text-align: center;
+	}
+	.footer-form input {
+		width: 12rem;
+	}
+	.feedback-img img {
+	padding: 0 1rem;
+	}
+} 
+
+
+@media (max-width: 768px) {
+	.logo {
+		text-align: center;
+	}
+	.novigation-content {
+		margin-top: 3rem;
+		text-align: center;
+		}
+		.footer {
+		background: #fff url(../img/footer/computer.jpg);
+		width: 100%;
+		display: block;
+		text-align: center;
+	
+		&-help {
+	margin-top: 2rem;
+	font-family: roboto, sans-serif;
+	font-size: 1.3rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	}
+	&-form input {
+		width: 20rem;
+		margin: 1rem;
+		text-align: center;
+	}
+	p {
+		margin-top: 2rem;
+	}
+	h3 {
+		text-align: center;
+	}
+	&-studio {
+	p {
+		margin: 1rem 0;
+	}
+	h3 {
+		text-align: center;
+		}
+	}
+}
+	}
+	
+
+
+
+@media (max-width: 576px) {
+.logo {
+		text-align: center;
+	} 
+	.navbar {
+		text-align: center;
+	}
+.novigation-content {
+	margin-top: 5rem;
+	text-align: center;
+	}
+	.footer {
+		background: #fff url(../img/footer/computer.jpg);
+		width: 100%;
+		display: block;
+		text-align: center;
+	
+		&-help {
+	margin-top: 2rem;
+	font-family: roboto, sans-serif;
+	font-size: 1.3rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	}
+	&-form input {
+		width: 20rem;
+		margin: 1rem;
+		text-align: center;
+	}
+	p {
+		margin-top: 2rem;
+	}
+	h3 {
+		text-align: center;
+	}
+	&-studio {
+	p {
+		margin: 1rem 0;
+	}
+	h3 {
+		text-align: center;
+		}
+	}
+}
+}
